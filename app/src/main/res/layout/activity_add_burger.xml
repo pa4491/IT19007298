@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBurger">
+
+    <EditText
+
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="158dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/addnewburger"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="113dp"
+        app:srcCompat="@drawable/burger1"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+        android:ems="0"
+        android:inputType="text"
+        android:text="@string/burgerprice"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/burgername"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uploadphoto"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="159dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/burger_price2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="154dp"
+        android:layout_height="168dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/burger_description"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="159dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/burger_name2"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="82dp"
+        android:layout_height="27dp"
+        android:text="@string/burger_price3"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="167dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burger_name3"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="162dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burger_description3"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_item"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="116dp"
+        android:layout_height="46dp"
+        android:text="@string/cancel"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="162dp"
+        android:layout_height="164dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

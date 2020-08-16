@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FoodDeliveryProject</string>
+    <string name="addnewburger">Add New Burger</string>
+    <string name="burgerprice">Burger Price</string>
+    <string name="burgername">Burger Name</string>
+    <string name="uploadphoto">Upload Photo</string>
+    <string name="burger_description">Burger Description</string>
+    <string name="burger_name2">Burger Name</string>
+    <string name="burger_name3">Burger Name</string>
+    <string name="burger_price2">Burger Price</string>
+    <string name="burger_price3">Burger Price</string>
+    <string name="burger_description3">Burger Description</string>
+    <string name="upload_item">Upload Item</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit"><![CDATA[Edit >]]></string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_price">Item Price</string>
+    <string name="item_description">Item Description</string>
+    <string name="update_item">Update Item</string>
+    <string name="delete">Delete</string>
+    <string name="searchfood">Search Food</string>
+    <string name="discount">Discount</string>
+    <string name="popularfoods">Popular Foods</string>
+    <string name="seeall"><![CDATA[See All >]]></string>
+    <string name="riceandcurry_chicken"><![CDATA[Rice & Curry Chicken]]></string>
+    <string name="hotdrumlet">Hot Drumlet</string>
+    <string name="description">Order any food from app and get the discount\"</string>
+
+</resources>

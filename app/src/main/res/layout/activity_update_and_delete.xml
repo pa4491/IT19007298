@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateAndDelete">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="123dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/burger1"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="vegetable_burger"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="113dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="rs_250_00"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:text="@string/upload_photo"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/item_name"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="131dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/item_price"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="142dp"
+        android:layout_height="158dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/item_description"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="188dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="vegetable_burger"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Rs.250.00"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="185dp"
+        android:layout_height="160dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Water Chestnuts"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:text="@string/update_item"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:text="@string/delete"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
